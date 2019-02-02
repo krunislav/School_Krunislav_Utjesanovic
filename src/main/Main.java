@@ -60,6 +60,10 @@ public class Main {
         computer.setHardDrive(1000);
         computer.info();
 
+        student.setCourse(course);
+        //sve je dostupno
+        student.getCourse().info();
+
     }
 
 }
