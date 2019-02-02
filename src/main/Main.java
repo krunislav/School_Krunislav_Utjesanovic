@@ -6,6 +6,7 @@ package main;
 
 import student.Student;
 import course.Course;
+import computer.Computer;
 
 public class Main {
 
@@ -43,6 +44,21 @@ public class Main {
         courseSecondConstructor.setNumberOfClasses(150);
         courseSecondConstructor.setCodeName("PHP-3");
         courseSecondConstructor.info();
+
+        System.out.println("Class Computer");
+        System.out.println();
+
+        Computer computer = new Computer();
+        computer.info();
+
+        Computer computerSecondConstructor = new Computer("Windows", 2.4, 8, 1000);
+        computerSecondConstructor.info();
+
+        computer.setOperatingSystem("MAC OS");
+        computer.setProcessTact(2.4);
+        computer.setMemory(8.0);
+        computer.setHardDrive(1000);
+        computer.info();
 
     }
 
