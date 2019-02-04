@@ -25,6 +25,8 @@ public class Student {
         this.firstName = "Krunislav";
         this.lastName = "Utješanović";
         this.yearOfBirth = 1979;
+        this.course = new Course();
+        this.computer = new Computer();
     }
 
     public Student(String firstName, String lastName, int yearOfBirth) {
