@@ -6,6 +6,7 @@
 package student;
 
 import course.Course;
+import computer.Computer;
 
 /**
  *
@@ -18,6 +19,7 @@ public class Student {
     private int yearOfBirth;
 
     private Course course;
+    private Computer computer;
 
     public Student() {
         this.firstName = "Krunislav";
@@ -68,6 +70,14 @@ public class Student {
 
     public void setCourse(Course course) {
         this.course = course;
+    }
+
+    public void setComputer(Computer computer) {
+        this.computer = computer;
+    }
+
+    public Computer getComputer() {
+        return this.computer;
     }
 
 }

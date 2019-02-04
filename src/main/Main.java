@@ -64,6 +64,10 @@ public class Main {
         //sve je dostupno
         student.getCourse().info();
 
+        student.setComputer(computer);
+
+        student.getComputer().info();
+
     }
 
 }
