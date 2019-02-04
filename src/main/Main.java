@@ -24,6 +24,17 @@ public class Main {
 //        student.setCourse(course);
         student.info();
 
+        student.setFirstName("Marko");
+        student.setLastName("Marković");
+        student.setYearOfBirth(1990);
+        student.getCourse().setName("JAVA");
+        student.getCourse().setNumberOfClasses(105);
+        student.getComputer().setProcessTact(2.4);
+        student.getComputer().setMemory(8.0);
+        student.getComputer().setHardDrive(320);
+
+        student.info();
+
 //        Student studentSecondConstructor = new Student("Mladen", "Mladenović", 1980);
 //        studentSecondConstructor.info();
 //
